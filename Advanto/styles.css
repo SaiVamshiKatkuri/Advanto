@@ -1,0 +1,169 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.buttons{
+    margin-left: 600px;
+    
+}
+.login{
+    width:130px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.one_c{
+    background-color: rgba(72, 219, 251,0.5);
+   
+}
+.one{
+    padding: 120px;
+}
+h1{
+    color:rgba(34, 47, 62,1.0);
+    font-family: 'Noto Serif', serif;
+    font-size: 60px;
+    
+}
+.one p{
+    color:rgba(34, 47, 62,1.0);
+    font-size: 20px;
+}
+.interview{
+    margin: 90px;
+    width:300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    position: relative;
+   
+}
+
+.session{
+    border-radius: 25px;
+    margin-left: 80px;
+    margin-top: 20px;
+    transition-property: transform;
+    transition: 1s;
+    transition-timing-function: linear;
+    
+    
+}
+.session:hover{
+    transform: rotateY(180deg);
+}
+.ass1{
+    text-align: center;
+}
+.c_style{
+    width:450px;
+    height: 250px;
+}
+h2,li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color:rgba(44, 62, 80,1.0);
+}
+.main{
+    margin-left:300px;margin-top: 50px;
+}
+
+li i{
+    color: blue;
+}
+.anim1{
+    position: relative;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.anim2{
+    position: relative;
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes anim1{
+    0%{left:-800px}
+    100%{left: 0px;}
+}
+@keyframes anim2{
+    0%{right: -800px;}
+    100%{right: 0px;}
+}
+.sponsors{
+    width:200px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+h2{
+    text-align: center;
+}
+.noimg{
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 100%;
+    box-shadow: 2px 0px 8px rgba(0,0,0,0.5);
+}
+.fa-star{
+    color: goldenrod;
+}
+
+@media (max-width:1431px)and (min-width:900px) {
+    .buttons{
+        margin-left: 150px;
+    }
+}
+@media (max-width:987px)and (min-width:587px) {
+
+.buttons{
+    margin-left: 40px;
+}
+}
+@media (max-width:576px)and (min-width:0px) {
+.buttons{
+    margin-left: 0px;
+}
+}
+@media (max-width:1224px)and (min-width:990px) {
+.one{
+    padding: 20px;
+}
+.interview{
+    margin: 30px;
+}
+}
+@media (max-width:990px)and (min-width:879px){
+    .interview{
+    margin-left: 300px;
+    }
+}
+@media (max-width:879px)and (min-width:680px){
+    .interview{
+        margin-left: 200px;
+    }
+}
+@media (max-width:720px)and (min-width:0px){
+
+h1{
+    font-size: 30px;
+}
+.session{
+    margin-left: 40px;
+}
+}
+@media (max-width:1220px)and (min-width:1024px){
+.c_style{
+    margin-left: 120px;
+}
+}
